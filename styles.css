@@ -1,0 +1,185 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.center {
+    display: flex;
+    max-width: 1500px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+section.main {
+    background-image: url('./images//8G9PJA14T3FN1566592377439.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding: 20px 0 80px 0;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+
+.menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.logo-menu {
+    width: 30%;
+}
+
+.logo-menu > a > img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.items-menu {
+    text-align: right;
+    width: 70%;
+}
+
+.items-menu a {
+    text-decoration: none;
+    color: #e1e1e1;
+    margin: 0 15px;
+    font-family: 'Sigmar One', cursive;
+}
+
+.items-menu a:hover {
+    border-bottom: 3px solid yellowgreen;
+    transition: 0.3s;
+}
+
+.items-menu a:nth-child(1) {
+    font-weight: bold;
+}
+
+.items-menu a:nth-child(2) {
+    font-weight: bold;
+}
+
+.items-menu a:nth-child(3) {
+    font-weight: bold;
+}
+
+.games {
+    background-color: yellowgreen;
+    width: 80px;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Sigmar One', cursive;  
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.games:hover {
+    background-color:#7BA428;
+    transition: 0.5s;
+}
+
+.mockup {
+    display: block;
+    text-align: center;
+    padding-top: 600px;
+    width: 100%;
+    color: white;
+}
+
+.mockup h1, p {
+    font-family: 'Sigmar One', cursive;
+    color: yellowgreen;
+}
+
+section.mascots img {
+    width: calc(100% / 4);
+    padding: 0 1%;
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+section.mascots {
+    padding: 100px 0;
+}
+
+
+
+.infos-pets > .center > .intro > h2 {
+    font-family: 'Sigmar One', cursive;
+}
+
+.infos-pets { 
+    display: flex;
+}
+
+.intro {
+    width: 100%;
+    text-align: center;
+}
+
+section.infos-pets {
+    padding: 40px 0;
+    background-color: #fbfcfe;
+}
+
+section.infos-pets > .center h2{
+    font-size: 32px;
+    width: 100%;
+}
+
+.box-infos img {
+    max-width: 80px;
+    max-height: 60px;
+}
+
+.box-infos {
+    box-shadow: 0px 20px 40px #2426721c;
+    width: 31.3%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+section.infos-pets > .center p{
+    font-size: 16px;
+    width: 100%;
+    color: #7c7c7c;
+    
+}
+
+.more-infos {
+    display: flex;
+    width: 100%;
+    padding-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .more-infos {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-infos {
+        width: 60%;
+        padding: 20px;
+        margin-right: 0;
+    }
+
+    section.mascots img {
+            width: calc(100% / 2);
+            padding: 1% 1%;
+            border-radius: 30%;
+            height: 200px;
+    }
+
+    
+    
+}
