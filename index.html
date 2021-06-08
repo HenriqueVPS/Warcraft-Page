@@ -99,5 +99,74 @@
         </div>
     </section>
 
+    <section class="carrousel-infos">
+        <h1>More Places to visit</h1>
+        <div style="display:block;" class="center"></div>
+        <div class="container-slider">
+            <div class="container-slider-single">
+                <h3>Hellfire Peninsula</h3>
+                <img src="./images/hellfire.jpg" alt="">
+            </div>
+            <div class="container-slider-single">
+                <h3>Netherstorm</h3>
+                <img src="./images/netherstorm.jpg" alt="">
+            </div>
+            <div class="container-slider-single">
+                <h3>Terokkar Forest</h3>
+                <img src="./images/terrokar.jpg" alt="">
+            </div>
+            <div class="container-slider-single">
+                <h3>Nagrand</h3>
+                <img src="./images/nagrand-1.jpg" alt="">
+            </div>
+            <div class="container-slider-single">
+                <h3>Zangarmarsh</h3>
+                <img src="./images/zargarmash.png" alt="">
+            </div>
+            <div class="container-slider-single">
+                <h3>Blade's Edge Mountains</h3>
+                <img src="./images/blade.jpg" alt="">
+            </div>
+            <div class="container-slider-single">
+                <h3>Shadowmoon Valley</h3>
+                <img src="./images/shadowmoon.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-img">
+            <img src="./images/logo.jpg" alt="">
+        </div>
+        <section class="footer-copy">
+            <div class="copy">
+                <p>Copy©, all right reserved.</p>
+            </div>
+            <div class="donate">Help us With your donate, <span style="text-decoration: underline;">click here.</span></div>
+        </section>
+    </footer>
+
+    <script src="./jquery.js"></script>
+    <script src="./slick.min.js"></script>
+    <script>
+        $('.container-slider').slick({
+        dots: true,
+        arrows:false,
+        speed:3000,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnHover:false,
+        responsive: [
+                    {
+                      breakpoint: 768,
+                      settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                      }
+                    }],
+        });
+</script>
 </body>
 </html>

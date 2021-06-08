@@ -210,6 +210,103 @@ section.infos-pets > .center p{
     margin-top: 30px;
 }
 
+.carrousel-infos {
+    padding-top: 50px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.carrousel-infos h1 {
+    text-align: center;
+    color: #000;
+    font-size: 32px;
+    font-family: 'Sigmar One', cursive;
+    padding: 100px 0 30px 0 ;
+}
+
+.carrousel-infos h3 {
+    color: #7BA328;
+    font-family: 'Sigmar One', cursive;
+}
+
+.container-slider {
+    overflow: hidden;
+}
+
+.container-slider-single {
+    float: left;
+    padding: 10px;
+}
+
+.container-slider-single > img {
+    max-width: 250px;
+    max-height: 150px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.slick-slide {
+    margin-left: 27px;
+}
+
+.slick-list {
+    margin-left: -27px;
+}
+
+.slick-dotted ul {
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.slick-dotted li {
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.slick-dotted li button {
+    display: none;
+}
+
+.slick-dotted button:focus {
+    outline: none;
+}
+
+.footer {
+    padding-top: 30px;
+    border-top: 2px solid #7ba328;
+    justify-content: center;
+}
+
+.footer-img {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-img > img {
+    width: 300px;
+}
+
+.footer-copy {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #7BA428;
+    padding: 3px 0;
+}
+
+.footer-copy > .copy {
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+.footer-copy > .donate {
+    font-size: 14px;
+    cursor: pointer;
+    padding-right: 15px;
+}
 
 @media screen and (max-width: 768px) {
     .more-infos {
@@ -238,7 +335,15 @@ section.infos-pets > .center p{
     .outland {
         width: 100%;
     }
+
+    .carrousel-infos {
+        width: 100%;
+    }
     
+    .carrousel-infos h1 {
+        padding-top: 30px;
+    }
+
 }
 
 @media screen and (max-width: 900px) { 
@@ -257,6 +362,10 @@ section.infos-pets > .center p{
         justify-content: center;
         align-items: center;
         margin-top: 15px;
+    }
+
+    .carrousel-infos {
+        width: 80%;
     }
 
 }
