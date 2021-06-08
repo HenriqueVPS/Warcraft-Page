@@ -5,6 +5,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
+
 .center {
     display: flex;
     max-width: 1500px;
@@ -160,6 +161,56 @@ section.infos-pets > .center p{
     padding-top: 80px;
 }
 
+
+.lands {
+    background-color: #7BA428;
+
+    height: 135px;
+
+    margin-bottom: 50px;
+}
+
+.lands > h2 {
+    font-family: 'Sigmar One', cursive;
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+}
+
+.lands >  p {
+    color: black;
+    text-align: center;
+}
+
+
+.about-outland {
+    width: 50%;
+}
+
+.outland {
+    width: 50%;
+}
+
+.about-outland > p > img {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+
+.about-outland > p {
+    color: #7c7c7c;
+    padding: 12px 0;
+    display: inline-block;
+    width: calc(100% - 15px);
+}
+
+.outland > img {
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+
 @media screen and (max-width: 768px) {
     .more-infos {
         flex-wrap: wrap;
@@ -180,6 +231,32 @@ section.infos-pets > .center p{
             height: 200px;
     }
 
+    .about-outland {
+        width: 100%;
+    }
     
+    .outland {
+        width: 100%;
+    }
     
+}
+
+@media screen and (max-width: 900px) { 
+    .about-outland {
+        width: 100%;
+    }
+    
+    .outland {
+        text-align: center;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .outland > img {
+        background-position: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+
 }
