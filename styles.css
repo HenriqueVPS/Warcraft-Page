@@ -338,6 +338,7 @@ section.infos-pets > .center p{
 
     .carrousel-infos {
         width: 100%;
+        text-align: center;
     }
     
     .carrousel-infos h1 {
