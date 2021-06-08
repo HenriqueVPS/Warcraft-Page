@@ -24,6 +24,17 @@
                     <a href="#">Help</a>
                     <button class="games">Games</button>
                 </div>
+                <div class="items-menu-mobile">
+                    <i class="fa fa-bars" ></i>
+                    <div class="menu-mobile">
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Help</a>
+                        <div style="text-align: center" class="btn">
+                            <button  class="btn-mobile">Games</button>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="mockup">
@@ -167,6 +178,20 @@
                       }
                     }],
         });
+</script>
+
+<script>
+    var menuBtn = document.querySelector('.items-menu-mobile i');
+    menuBtn.addEventListener('click', () => {
+        let itemsMenu = document.querySelector('.menu-mobile');
+        if(itemsMenu.classList.contains('show')) {
+            itemsMenu.classList.remove('show')
+            itemsMenu.classList.add('hide')
+        } else {
+            itemsMenu.classList.remove('hide')
+            itemsMenu.classList.add('show')
+        }
+    })
 </script>
 </body>
 </html>

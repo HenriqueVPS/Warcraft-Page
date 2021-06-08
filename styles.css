@@ -307,6 +307,19 @@ section.infos-pets > .center p{
     padding-right: 15px;
 }
 
+.items-menu-mobile {
+    display: none;
+}
+
+.items-menu-mobile i {
+    color: white;
+    width: 73px;
+    text-align: center;
+    height: 40px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
     .more-infos {
         flex-wrap: wrap;
@@ -342,6 +355,61 @@ section.infos-pets > .center p{
     
     .carrousel-infos h1 {
         padding-top: 30px;
+    }
+
+    .items-menu {
+        display: none;
+    }
+
+    .items-menu-mobile {
+        display: block;
+        width: 70%;
+        text-align: right;
+    }
+
+    .menu-mobile {
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 80px;
+        width: 100px;
+        padding: 20px 0;
+        display: grid;
+        transition: 1s;
+        opacity: 0;
+    }
+
+    .show {
+        opacity: 1;
+    }
+
+    .hide {
+        opacity: 0;
+    }
+
+    .menu-mobile > a {
+        text-decoration: none;
+        color: #e1e1e1;
+        margin: 5px 15px;
+        font-family: 'Sigmar One', cursive;
+    }
+    
+    .menu-mobile > a:hover {
+        border-bottom: 3px solid yellowgreen;
+        transition: 0.3s;
+    }
+    
+    
+    .btn-mobile {
+        background-color: yellowgreen;
+        width: 80px;
+        height: 30px;
+        color: white;
+        font-size: 16px;
+        font-family: 'Sigmar One', cursive;  
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
     }
 
 }
